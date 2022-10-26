@@ -10,7 +10,7 @@ function App() {
     axios.get("	https://api.adviceslip.com/advice")
     .then((result)=>{
       setData(result.data.slip.advice)
-      // console.log(result)
+      
     })
     .catch((error)=>{
       console.log(error)
@@ -19,17 +19,15 @@ function App() {
 
 
   return (
-
-    
-    <div className="App">
-        <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
-        <div class="content">
-            <h1>{data}</h1>
-            <button class="button" onClick={getadvice}><span>Get the Advices here</span></button>
-        </div>
-    </div>
+        <div className="App">
+                <div class="bg"></div>
+                <div class="bg bg2"></div>
+                <div class="bg bg3"></div>
+                <div class="content">
+                    <h1>{data}</h1>
+                    <button class="button" onClick={getadvice}><span>Get the Advices here</span></button>
+                </div>
+            </div>
   );
 }
 
