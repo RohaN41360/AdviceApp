@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
-import "./app.css"
+
+import './App.css';
 
 function App() {
   const [data,setData] = useState("In order to get, you have to give.")
