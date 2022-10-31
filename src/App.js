@@ -23,9 +23,13 @@ function App() {
                 <div class="bg"></div>
                 <div class="bg bg2"></div>
                 <div class="bg bg3"></div>
-                <div class="content">
-                    <h1>{data}</h1>
-                    <button class="button" onClick={getadvice}><span>Get the Advices here</span></button>
+                <div class="content" style={{display:"flex",flexDirection:"column",justifyContent:"space-evenly"}}>
+                    <div>
+                        <h1>{data}</h1> 
+                    </div>
+                    <div>  
+                        <button class="button" onClick={getadvice}><span>Get the Advices here</span></button>
+                    </div>              
                 </div>
             </div>
   );
