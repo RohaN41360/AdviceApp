@@ -8,7 +8,7 @@ function App() {
 
   // api for searching with the keywords 👇
   // https://api.adviceslip.com/advice/search/{query}
-
+// my name is rohan pawar 
   const getadvice = () =>{
     axios.get("	https://api.adviceslip.com/advice")
     .then((result)=>{
