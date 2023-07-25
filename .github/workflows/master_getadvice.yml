@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'getadvice'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F12584AEA5C848C3BCF97D203A75441E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3EBC2C9CE1D44BFA84775BA93BC47C72 }}
           package: .
